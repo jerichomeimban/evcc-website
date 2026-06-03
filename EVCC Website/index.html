@@ -7,13 +7,14 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
 body{background:#f4f4f4;color:#222}
-header{background:#7b0f18;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center}
-.logo{font-size:26px;font-weight:bold}
-nav a{color:white;text-decoration:none;margin-left:18px;font-weight:bold}
-.hero{background:#7b0f18;color:white;text-align:center;padding:100px 20px}
-.hero h1{font-size:48px;margin-bottom:15px}
-.hero p{font-size:20px}
-.btn{display:inline-block;margin-top:25px;background:#f4a51c;color:#7b0f18;padding:14px 25px;border-radius:5px;text-decoration:none;font-weight:bold}
+header{background:#7b0f18;color:white;padding:15px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:15px}
+.logo img{height:65px;background:white;border-radius:8px;padding:5px}
+nav a{color:white;text-decoration:none;margin-left:16px;font-weight:bold}
+.hero{background:linear-gradient(rgba(123,15,24,.90),rgba(123,15,24,.90));color:white;text-align:center;padding:90px 20px}
+.hero img{width:190px;background:white;border-radius:15px;padding:10px;margin-bottom:20px}
+.hero h1{font-size:48px;margin-bottom:12px}
+.btn{display:inline-block;margin-top:22px;background:#f4a51c;color:#7b0f18;padding:14px 25px;border-radius:5px;text-decoration:none;font-weight:bold}
 section{padding:60px 8%}
 .white{background:white}
 h2{color:#7b0f18;margin-bottom:20px;font-size:32px}
@@ -23,25 +24,20 @@ h2{color:#7b0f18;margin-bottom:20px;font-size:32px}
 .banner{background:#7b0f18;color:white;text-align:center}
 .banner h2{color:white}
 footer{background:#222;color:white;text-align:center;padding:25px}
-@media(max-width:800px){
-header{display:block;text-align:center}
-nav a{display:inline-block;margin:10px}
-.hero h1{font-size:34px}
-}
+@media(max-width:800px){header{display:block;text-align:center}nav a{display:inline-block;margin:10px}.hero h1{font-size:34px}}
 </style>
 </head>
 <body>
 
 <header>
-<div class="logo" style="display:flex;align-items:center;gap:15px;">
-    <img src="logo.jpg" alt="EVCC Logo" style="height:60px;">
-    <div>
-        <h2 style="color:white;margin:0;">EVCC</h2>
-        <small>Eastern Visayas Central Colleges</small>
-    </div>
+<div class="logo">
+<img src="logo.jpg" alt="EVCC Logo">
+<div>
+<h2 style="color:white;margin:0;">EVCC</h2>
+<small>Eastern Visayas Central Colleges</small>
+</div>
 </div>
 <nav>
-<a href="index.html">Home</a>
 <a href="#about">About</a>
 <a href="#programs">Programs</a>
 <a href="#admissions">Admissions</a>
@@ -53,12 +49,10 @@ nav a{display:inline-block;margin:10px}
 </header>
 
 <section class="hero">
-<div>
-<img src="logo.jpg" alt="EVCC Logo" style="width:180px;margin-bottom:20px;">
+<img src="logo.jpg" alt="EVCC Logo">
 <h1>Eastern Visayas Central Colleges</h1>
 <p>Excellence • Integrity • Service</p>
 <a href="#admissions" class="btn">Apply Now</a>
-</div>
 </section>
 
 <section id="about" class="white">
