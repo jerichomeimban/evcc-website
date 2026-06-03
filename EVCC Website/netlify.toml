@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | EVCC</title>
+<title>Events | EVCC</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -29,12 +29,13 @@
   </nav>
 </header>
 
-<section class="white">
-<h2 class="title">Contact Us</h2>
-<p class="subtitle">For inquiries, visit or contact Eastern Visayas Central Colleges.</p>
+<section>
+<h2 class="title">Events</h2>
+<p class="subtitle">Upcoming school activities, ceremonies, seminars, and campus events.</p>
 <div class="grid">
-<div class="card"><div class="card-body"><h3>School Information</h3><p><strong>School:</strong> Eastern Visayas Central Colleges</p><p><strong>Address:</strong> Catarman, Northern Samar</p><p><strong>Phone:</strong> 0000000000</p><p><a href="https://www.facebook.com/profile.php?id=61577088823683" target="_blank">Visit Official Facebook Page</a></p></div></div>
-<div class="card"><div class="card-body"><h3>Inquiry Form</h3><form class="form" name="contact" method="POST" data-netlify="true"><input type="text" name="name" placeholder="Full Name"><input type="email" name="email" placeholder="Email Address"><textarea name="message" rows="5" placeholder="Message"></textarea><button type="submit">Send Message</button></form></div></div>
+<div class="card"><div class="card-body"><h3>Orientation</h3><p>Student orientation and campus information sessions.</p></div></div>
+<div class="card"><div class="card-body"><h3>Recognition Programs</h3><p>School awards, achievements, and special programs.</p></div></div>
+<div class="card"><div class="card-body"><h3>Community Activities</h3><p>Events that support leadership, teamwork, and service.</p></div></div>
 </div>
 </section>
 
